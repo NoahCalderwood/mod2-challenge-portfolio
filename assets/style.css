@@ -1,0 +1,103 @@
+:root {
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    margin-top: 13%;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav li {
+    display: inline; 
+    
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1{
+    color: darkcyan;
+    background-color: black
+}
+
+a {
+    border: 5px solid black;
+    background-color: grey;
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+    z-index: 1;
+    margin-bottom: -20px;
+    
+}
+
+p {
+    background-color: lightgray;
+    border: 2px solid black;
+}
+
+.profile{
+    max-width: 400px;
+    max-height: 300px;
+    align-content: center;
+}
+.card {
+    display: inline-flex;
+    flex-flow: row wrap;
+    flex: 0, 0;
+    border: 2px solid black;
+    background-color: darkorange;
+    justify-content: center;
+    padding-top: 3px;
+    margin-top: 30px;
+    width: 67%;
+    transition: 0.5s;
+}
+
+#screenshot {
+    display: inline-flex;
+    width:90%;
+    height:90%;
+    transition: 0.5s;
+    opacity: 45%;
+}
+
+footer {
+    margin: 5%;
+}
+
+.card:hover{
+     box-shadow: 10px 5px 5px 5px white;
+     width: 70%;
+    }
+
+.card:hover #screenshot{
+    width: 100%;
+    height: 110%;
+    opacity: 100%;
+}
+.card:active + #screenshot{
+    box-shadow: inset 0px 0px 5px 5px  black;
+
+}
