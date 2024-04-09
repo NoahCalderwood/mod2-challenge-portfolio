@@ -10,15 +10,13 @@
 body{
     background-image: url('./Otherback.jpg');
     background-size: cover;
+    
 }
 
 header {
     text-align: center;
     background-color: black;
-    padding-top: 45px;
-    margin-top: 45px;
-    
-}
+    }
 /*fixes nav to the top and puts it in front of all else.*/
 nav {
     position: fixed;
