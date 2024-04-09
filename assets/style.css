@@ -132,7 +132,7 @@ p {
     height:100%;
     transition: 0.5s;
     opacity: 55%;
-    background-image: url('./assets/Portfolioback.jpg');
+    background-image: url('./Portfolioback.jpg');
     background-size: cover;
 }
 
