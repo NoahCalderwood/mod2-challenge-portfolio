@@ -3,6 +3,8 @@ This is a portfolio containing all of my creations so far in my career. There ar
 As a new programmer, I wanted a place to show off the projects that I learned heavily from as well as had the most fun with, including this one.
 I learned so much about HTML and CSS while making this porfolio. This helped me understand many different ways to structure CSS and use its different resources.
 
+https://noahcalderwood.github.io/mod2-challenge-portfolio/
+
 Here are some screenshots of the portfolio:
 
 ![Screenshot 2024-04-09 160221](https://github.com/NoahCalderwood/mod2-challenge-portfolio/assets/76232069/93f2fbf1-5d8e-4701-92e9-6ed5ec406009)
